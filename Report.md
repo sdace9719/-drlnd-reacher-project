@@ -1,4 +1,4 @@
-<img width="543" height="413" alt="image" src="https://github.com/user-attachments/assets/343d1c84-ee69-4603-b309-b007314a1af0" /># Implementation
+# Implementation
 
 The training algorithm used here is DDPG. In addition to DDPG, several additional techniques were used:-
 - PER(Prioritized Experience Replay) with annealing beta from 0.4 to 1 and alpha as 0.4
