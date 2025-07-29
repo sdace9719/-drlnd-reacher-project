@@ -27,4 +27,8 @@ After enabling multi agent training with 20 parallel instances, we can see a dra
 
 <img width="543" height="413" alt="image" src="https://github.com/user-attachments/assets/a07d97e8-a931-4624-9eae-f6004d19819b" />
 
+## Future Improvements
+
+To improve this further, we can use Soft critic method which wil inherently include exploration as part of its learning process instead of adding gaussian noise seperately as we did in this case to promote exploration. It is more stable and robust as it is a stochastic method as it maximizes both rewards and exploration to find novel states and ultimately a more optimal policy
+
 
